@@ -1,0 +1,2 @@
+# Smart-Fee-Scheduling-Reminder-System-for-Private-Tuitions-Tutors-
+This repository hosts the code, reports, and documentation for a university project. It demonstrates problem-solving, algorithmic thinking, and clean implementation techniques. The project includes clear explanations, modular code, and test cases for reproducibility. It serves as both a learning resource and a showcase of my academic work.
