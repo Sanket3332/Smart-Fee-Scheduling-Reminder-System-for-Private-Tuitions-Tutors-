@@ -25,7 +25,11 @@ Make sure the following are installed on your system:
 git clone https://github.com/Sanket3332/Smart-Fee-Scheduling-Reminder-System-for-Private-Tuitions-Tutors.git
 cd Smart-Fee-Scheduling-Reminder-System-for-Private-Tuitions-Tutors
 
+### Step 1:
+
+
 ### Step 2: Create Virtual Environment
+'''bash
 # For Windows
 python -m venv venv
 venv\Scripts\activate
