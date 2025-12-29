@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # C extensions
 *.so
 
@@ -144,6 +150,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Data files
+*.csv
+*.xlsx
+*.db
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -175,11 +186,24 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# VS Code / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
 # Abstra
 # Abstra is an AI-powered process automation framework.
 # Ignore directories containing user credentials, local state, and settings.
 # Learn more at https://abstra.io/docs
 .abstra/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Visual Studio Code
 #  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
@@ -187,6 +211,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
+
+# Python egg / distribution files
+*.egg
+*.egg-info/
+dist/
+build/
 
 # Ruff stuff:
 .ruff_cache/
