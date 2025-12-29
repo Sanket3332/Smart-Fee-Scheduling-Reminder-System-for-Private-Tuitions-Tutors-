@@ -100,6 +100,17 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+
+# CSVs and tracking files
+Emails.csv
+email_tracking.csv
+click_tracking.csv
+metrics.csv
+
+# Attachments
+images.jpeg
+
+
 # UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
